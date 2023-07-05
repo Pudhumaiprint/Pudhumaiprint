@@ -2038,6 +2038,7 @@ h6 {
     flex: 0 0 19%;
     -ms-flex: 0 0 19%;
     max-width: 19%;
+    
   }
 }
 
@@ -2570,7 +2571,7 @@ input.form-control-sm {
 }
 .hero__content {
   padding: 245px 0px;
-  padding-top: 230px;
+  padding-top: 150px;
   position: relative;
 }
 @media (max-width: 1726px) {
@@ -7425,5 +7426,6 @@ input.form-control-sm {
 .footer-widget__2 .recent-news__date {
   color: #A4A6A9;
 }
+.navarea .site-logo {width: 130px;}
 
 /*# sourceMappingURL=style.css.map */
