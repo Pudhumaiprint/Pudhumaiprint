@@ -153,6 +153,13 @@
 html {
   scroll-behavior: smooth;
 }
+.navarea .site-logo
+{
+  display: flex;
+    width: auto;
+    height: 50px;
+}
+}
 
 body {
   font-family: "Rubik", sans-serif;
@@ -2034,7 +2041,16 @@ h6 {
   line-height: 37px;
 }
 @media (max-width: 1199px) {
+
+  .navarea .site-logo{
+
+    display: flex;
+    width: auto;
+    height: 50px;
+    max-width: 10%;   
+  }
   .navarea .site-logo {
+  
     flex: 0 0 19%;
     -ms-flex: 0 0 19%;
     max-width: 19%;
@@ -2043,7 +2059,7 @@ h6 {
 }
 
 .mainmenu {
-  padding-left: 83px;
+  padding-left: 50px;
 }
 @media (max-width: 1530px) {
   .mainmenu {
@@ -2077,7 +2093,7 @@ h6 {
   font-weight: 500;
   color: #0C2957;
   display: block;
-  padding: 32px 25px;
+  padding: 32px 20px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
   .mainmenu ul li a {
@@ -2098,7 +2114,7 @@ h6 {
   background: #fff;
   box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
   z-index: 1;
-  min-width: 240px;
+  min-width: 280px;
   padding: 20px 0px;
   top: 110%;
   visibility: hidden;
@@ -2876,7 +2892,7 @@ input.form-control-sm {
   height: 60px;
   border-radius: 50%;
   color: #fff;
-  opacity: 0.2;
+  opacity: 0.6;
   border: 2px solid #fff;
   line-height: 60px;
   text-align: center;
@@ -7426,6 +7442,6 @@ input.form-control-sm {
 .footer-widget__2 .recent-news__date {
   color: #A4A6A9;
 }
-.navarea .site-logo {width: 130px;}
+
 
 /*# sourceMappingURL=style.css.map */
