@@ -6081,7 +6081,7 @@ input.form-control-sm {
 /*Video css*/
 .video-area {
   padding: 0px 105px;
-  margin-top: -170px;
+  margin-top: 0px;
   position: relative;
   z-index: 2;
 }
